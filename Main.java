@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // Создаём компанию
         Company company1 = new Company("ООО 'Ёжик в Тумане'", new USNTypeA());
-        Company company2 = new Company("АО 'АВТОВАЗ'", new USNTypeB());
+        Company company2 = new Company("АО 'АВ'", new USNTypeB());
 
         // Добавляем доходы и расходы
         company1.shiftMoney(100_000); // Доходы
